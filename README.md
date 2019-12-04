@@ -57,7 +57,7 @@ TEST_23_f
 
 11. The program will ask if you wish to estimate the *p* value or calculate an exact *p*. Selecting yes will estimate the *p* and prompt asking for the number of permutations to estimate p. Selecting no will calculate the exact *p*. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.
 
-*WARNING: For large data sets, calculating the exact *p* will be EXTREMELY slow. This should only be used if necessary.*  
+*WARNING: For large data sets, calculating the exact p will be EXTREMELY slow. This should only be used if necessary.*  
 
 12. If the *p*-value filter was selected, it will ask for the maximum *p* value to be considered significant. Enter the appropriate value and press ENTER to continue.  
 
@@ -67,19 +67,19 @@ TEST_23_f
 
 15. The program will ask if you wish to summarise Ln P(D) and calculate Δ*K*. If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
-16. The program will ask if you wish to calculate *F*<sub>ST</sub> statistics (and Δ*F*<sub>ST</sub>). If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
+16. The program will ask if you wish to calculate F<sub>ST</sub> statistics (and Δ*F*<sub>ST</sub>). If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
-*NOTE: *F*<sub>ST</sub> statistics are only available from STRUCTURE data generated under the admixture model. Output generated in INSTRUCT (even under the admixture model) or under other STRUCTURE models will cause an error.*  
+*NOTE: F<sub>ST</sub> statistics are only available from STRUCTURE data generated under the admixture model. Output generated in INSTRUCT (even under the admixture model) or under other STRUCTURE models will cause an error.*  
 
 17. If you opted to calculate *F*<sub>ST</sub> statistics, Since *F*<sub>ST</sub> output will not necessarily be in the same order each run, the program will ask you to determine the optimization procedure to best order *F*<sub>ST</sub> values. Selecting 1 will use no optimization procedure. Option 2 will order the raw *F*<sub>ST</sub>s by value, while option 3 will order these data using the matrix correlations.  
 
 18. The program will then process and output the data. The files containing the filtered matrices, the Δ*K* and Ln P(D) values, the *F*<sub>ST</sub>s and the unfiltered correlation matrices will be named “<run name>-filtered.txt”, “<run name>-deltaK.txt”, “<run name>-Fst.txt” and “<run name>- matrix_correlations.txt” respectively.  
   
-*NOTE: The filtered matrices, Δ*K* and *F*<sub>ST</sub> output files are tab-delimited text files. They can therefore be directly opened in spreadsheet programs such as Microsoft Excel.*  
+*NOTE: The filtered matrices, ΔK and F<sub>ST</sub> output files are tab-delimited text files. They can therefore be directly opened in spreadsheet programs such as Microsoft Excel.*  
 
-*NOTE: For *K* = 1, STRUCTURE will always generate a *Q* value of 1.0. This causes a divide by zero error (the meaning of ‘NaN’ in the raw matrix correlations), resulting in a non-significant correlation.*  
+*NOTE: For K = 1, STRUCTURE will always generate a *Q* value of 1.0. This causes a divide by zero error (the meaning of ‘NaN’ in the raw matrix correlations), resulting in a non-significant correlation.*  
 
-*NOTE: In the *F*<sub>ST</sub>s output file, the 'Overall Mean' and 'Overall Standard Deviation' calculate the mean and standard deviation of *F*<sub>ST</sub>s ignoring cluster assignation. The 'St. Dev. of Means' calculates the standard deviation between the mean *F*<sub>ST</sub>s of the individual clusters. The 'Mean St. Dev.' is the mean of the standard deviation of the *F*<sub>ST</sub>s within individual clusters. The 'St. Dev. of St. Devs.' is the standard deviation between the standard deviation of the *F*<sub>ST</sub>s within individual clusters.*  
+*NOTE: In the F<sub>ST</sub>s output file, the 'Overall Mean' and 'Overall Standard Deviation' calculate the mean and standard deviation of F<sub>ST</sub>s ignoring cluster assignation. The 'St. Dev. of Means' calculates the standard deviation between the mean *F*<sub>ST</sub>s of the individual clusters. The 'Mean St. Dev.' is the mean of the standard deviation of the F<sub>ST</sub>s within individual clusters. The 'St. Dev. of St. Devs.' is the standard deviation between the standard deviation of the F<sub>ST</sub>s within individual clusters.*  
 
 
 ## Bugs and Contributing
