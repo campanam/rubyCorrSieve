@@ -26,7 +26,7 @@ You may need to make the CorrSieve-1.7-0.rb file executable. On Linux/UNIX, ente
 Move the CorrSieve-1.7-0.rb executable and LICENSE file to your chosen execution directory.  
 
 ## Usage  
-1. Prepare input for *CorrSieve*. *CorrSieve* reads directly from STRUCTURE and INSTRUCT output files, but requires that all files be in a single folder. Do not place other files in this folder. All files should end in ‘_f’ without an extension, e.g:
+1. Prepare input for *CorrSieve*. *CorrSieve* reads directly from STRUCTURE and INSTRUCT output files, but requires that all files be in a single folder. Do not place other files in this folder. All files should end in ‘_f’ without an extension, e.g:  
 TEST_11_f  
 TEST_12_f  
 TEST_13_f  
