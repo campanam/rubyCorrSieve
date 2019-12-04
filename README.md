@@ -17,10 +17,10 @@ Public domain updates by Michael G. Campana (2019) to the original Ruby source c
 ## Installation and Compatibility  
 rubyCorrSieve is compatible with Windows, Linux, and UNIX (including macOS) operating systems. rubyCorrSieve requires the Ruby interpreter. Installation files are available at www.ruby-lang.org/en/downloads. Install the appropriate interpreter for your operating system.  
 
-Clone this repository to your system. Using a Linux/UNIX command line this can be performed using `git`.:  
+Clone this repository to your system. Using a Linux/UNIX command line this can be performed using `git`:  
 `git clone https://github.com/campanam/rubyCorrSieve`  
 
-You may need to make the CorrSieve-1.7-0.rb file executable. On Linux/UNIX, enter:
+You may need to make the CorrSieve-1.7-0.rb file executable. On Linux/UNIX, enter:  
 `chmod +x rubyCorrSieve/*.rb`  
 
 Move the CorrSieve-1.7-0.rb executable and LICENSE file to your chosen execution directory.  
