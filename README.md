@@ -47,27 +47,27 @@ TEST_23_f
 
 7. The program will ask you to enter the the path to the folder in which to save the output files. Type the folder path and press ENTER. Pressing ENTER without previously typing a folder name will place the files in the current directory. If the folder does not exist, *CorrSieve* will create the directory.  
 
-8. The program will prompt you if you wish to calculate the *Q* matrix correlations. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+8. The program will prompt you if you wish to calculate the *Q* matrix correlations. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
 9. If the *Q* matrix correlations are calculated, the program will ask for the minimum Pearson correlation value (*r* value) to be considered significant. Enter the appropriate value and press ENTER to continue.  
 
-10. If the *Q* matrix correlations are calculated, the program will then ask if you also wish to filter the data by the significance level. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+10. If the *Q* matrix correlations are calculated, the program will then ask if you also wish to filter the data by the significance level. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
 *NOTE: The average maximum correlation algorithm ignores non-significant values as potential maximum correlations. The columns-and-rows method filters first by correlation and then again by significance.*  
 
-11. The program will ask if you wish to estimate the *p* value or calculate an exact *p*. Selecting yes will estimate the *p* and prompt asking for the number of permutations to estimate p. Selecting no will calculate the exact *p*. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.
+11. The program will ask if you wish to estimate the *p* value or calculate an exact *p*. Selecting yes will estimate the *p* and prompt asking for the number of permutations to estimate p. Selecting no will calculate the exact *p*. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.
 
 *WARNING: For large data sets, calculating the exact *p* will be EXTREMELY slow. This should only be used if necessary.*  
 
 12. If the *p*-value filter was selected, it will ask for the maximum *p* value to be considered significant. Enter the appropriate value and press ENTER to continue.  
 
-13. The program will prompt you to decide between the average maximum correlation filter method outlined in Cockram et al. (2008) or the columns-and-rows method described in Campana et al. (2011). Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+13. The program will prompt you to decide between the average maximum correlation filter method outlined in Cockram et al. (2008) or the columns-and-rows method described in Campana et al. (2011). Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
-14. The program will then ask if you wish to output the unfiltered correlation matrices. If yes, the program will output the raw correlations (and *p*-values if selected) in a separate file. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+14. The program will then ask if you wish to output the unfiltered correlation matrices. If yes, the program will output the raw correlations (and *p*-values if selected) in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
-15. The program will ask if you wish to summarise Ln P(D) and calculate Δ*K*. If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+15. The program will ask if you wish to summarise Ln P(D) and calculate Δ*K*. If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
-16. The program will ask if you wish to calculate *F*<sub>ST</sub> statistics (and Δ*F*<sub>ST</sub>). If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’or ‘no’/‘n’ and press ENTER to continue.  
+16. The program will ask if you wish to calculate *F*<sub>ST</sub> statistics (and Δ*F*<sub>ST</sub>). If yes, this will output these statistics in a separate file. Type ‘yes’/‘y’ or ‘no’/‘n’ and press ENTER to continue.  
 
 *NOTE: *F*<sub>ST</sub> statistics are only available from STRUCTURE data generated under the admixture model. Output generated in INSTRUCT (even under the admixture model) or under other STRUCTURE models will cause an error.*  
 
