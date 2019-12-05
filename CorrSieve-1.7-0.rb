@@ -23,7 +23,7 @@
 
 class Array
 #-----------------------------------------------------------------------------------------------
-	# Method each_permutation removed in CorrSieve 1.7.0 update
+	# Method each_permutation removed in CorrSieve 1.7-0 update
 	def inexact
 		a = []
 		b = []
