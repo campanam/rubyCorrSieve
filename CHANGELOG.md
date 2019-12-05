@@ -4,8 +4,8 @@ Michael G. Campana, 2019
 Smithsonian Conservation Biology Institute  
 Contact: campanam@si.edu  
 
-Public domain CorrSieve updates (versions >=1.7-0) are US government works  
-Unmodified CorrSieve source code (versions <= 1.6-5) copyright (c) Michael G. Campana, 2010-2011  
+Public domain rubyCorrSieve updates (versions >=1.7-0) are US government works  
+Unmodified *CorrSieve* source code (versions <= 1.6-5) copyright (c) Michael G. Campana, 2010-2011  
 
 ### Version 1.7-0  
 Removal of the method 'each_permutation' from the Array class.  
