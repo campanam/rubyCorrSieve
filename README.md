@@ -88,6 +88,9 @@ Please report all bugs (and any suggestions for improvements) to Michael G. Camp
 ## CorrSieve Citation  
 Campana, M.G. et al. 2011. *CorrSieve*: software for summarizing and evaluating Structure output. Mol. Ecol. Resour. 11:349-352. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2010.02917.x  
 
+## Acknowledgments
+Rita Cannas helpfully checked the method for calculating Δ*K*. Dent Earl and Michał Żmihorski identified bugs in the software.  
+
 ## References
 Campana, M.G. et al. 2011. *CorrSieve*: software for summarizing and evaluating Structure output. Mol. Ecol. Resour. 11:349-352. https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1755-0998.2010.02917.x  
 
