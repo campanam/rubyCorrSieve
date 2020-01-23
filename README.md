@@ -1,7 +1,6 @@
 # rubyCorrSieve  
 Michael G. Campana  
 Smithsonian Conservation Biology Institute  
-Contact: campanam@si.edu  
 
 Ruby implementation of *CorrSieve*  
 
